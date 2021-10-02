@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+}
+
+body,
+#user-input,
+#output-box,
+#translate-button {
+  background-color: #e0c097;
+  color: #5c3d2e;
+}
+#container,
+#user-input,
+#output-box,
+#translate-button {
+  border: 2px solid #5c3d2e;
+}
+
+#container {
+  max-width: 70vw;
+  margin: auto;
+}
+
+header {
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+#user-input,
+#output-box {
+  width: 30vw;
+  height: 15vh;
+  padding-left: 0.5rem;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  #user-input,
+  #output-box {
+    width: 50vw;
+    height: 10vh;
+    padding-left: 0.5rem;
+    font-size: 1.5rem;
+  }
+}
+
+#user-input {
+  margin: auto;
+}
+@media screen and (max-width: 600px) {
+  #user-input,
+  #output-box {
+    font-size: 1rem;
+  }
+}
+
+#translate-button {
+  padding: 1rem;
+  font-size: 1.1rem;
+  border-radius: 2rem;
+  font-weight: bold;
+  display: block;
+  margin: 1rem auto;
+}
+
+@media screen and (max-width: 600px) {
+  #translate-button {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+}
+
+#translate-button:hover {
+  border: 2px solid #e0c097;
+  background-color: #5c3d2e;
+  color: #e0c097;
+}
+
+h3,
+h4 {
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  h3,
+  h4 {
+    font-size: 1.5rem;
+  }
+}
+#output-box {
+  margin: auto;
+}
+
+footer {
+  padding: 1rem;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 1rem;
+  }
+}
