@@ -11,17 +11,17 @@ body {
 }
 
 body,
-#user-input,
-#output-box,
+#textArea,
+#output,
 #translate-button {
-  background-color: #e0c097;
-  color: #5c3d2e;
+  background-color: #cee5d0;
+  color: #1f1d36;
 }
 #container,
-#user-input,
-#output-box,
+#textArea,
+#output,
 #translate-button {
-  border: 2px solid #5c3d2e;
+  border: 2px solid #1f1d36;
 }
 
 #container {
@@ -46,8 +46,8 @@ header {
   }
 }
 
-#user-input,
-#output-box {
+#textArea,
+#output {
   width: 30vw;
   height: 15vh;
   padding-left: 0.5rem;
@@ -55,8 +55,8 @@ header {
 }
 
 @media screen and (max-width: 600px) {
-  #user-input,
-  #output-box {
+  #textArea,
+  #output {
     width: 50vw;
     height: 10vh;
     padding-left: 0.5rem;
@@ -64,12 +64,12 @@ header {
   }
 }
 
-#user-input {
+#textArea {
   margin: auto;
 }
 @media screen and (max-width: 600px) {
-  #user-input,
-  #output-box {
+  #textArea,
+  #output {
     font-size: 1rem;
   }
 }
@@ -91,9 +91,9 @@ header {
 }
 
 #translate-button:hover {
-  border: 2px solid #e0c097;
-  background-color: #5c3d2e;
-  color: #e0c097;
+  border: 2px solid #cee5d0;
+  background-color: #1f1d36;
+  color: #cee5d0;
 }
 
 h3,
@@ -108,7 +108,7 @@ h4 {
     font-size: 1.5rem;
   }
 }
-#output-box {
+#output {
   margin: auto;
 }
 
